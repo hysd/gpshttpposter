@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference
+        android:key="postUrl"
+        android:name="postUrl"
+        android:defaultValue=""
+        android:title="@string/post_url"
+        android:inputType="textUri" />
+    <EditTextPreference
+        android:key="postUserId"
+        android:name="postUserId"
+        android:defaultValue=""
+        android:title="@string/post_userid"
+        android:inputType="text" />
+    <EditTextPreference
+        android:key="postPassword"
+        android:name="postPassword"
+        android:defaultValue=""
+        android:title="@string/post_password"
+        android:inputType="textPassword" />
+    <EditTextPreference
+        android:key="postInterval"
+        android:name="postInterval"
+        android:defaultValue="10"
+        android:title="@string/post_interval"
+        android:inputType="number" />
+    <EditTextPreference
+        android:key="postTimeout"
+        android:name="postTimeout"
+        android:defaultValue="30"
+        android:title="@string/post_timeout"
+        android:inputType="number" />
+    <EditTextPreference
+        android:key="postLimit"
+        android:name="postLimit"
+        android:defaultValue="500"
+        android:title="@string/post_limit"
+        android:inputType="number" />
+    <EditTextPreference
+        android:key="postCharset"
+        android:name="postCharset"
+        android:defaultValue="UTF-8"
+        android:title="@string/post_charset"
+        android:inputType="text" />
+    <CheckBoxPreference
+        android:key="postZip"
+        android:name="postZip"
+        android:defaultValue="true"
+        android:title="@string/post_zip" />
+</PreferenceScreen>

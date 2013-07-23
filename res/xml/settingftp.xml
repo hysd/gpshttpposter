@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--  
+    <CheckBoxPreference
+        android:name="useFtp"
+        android:defaultValue="true"
+        android:title="@string/use_ftp"
+        android:key="usePost" />
+     -->
+    <EditTextPreference
+        android:key="ftpHost"
+        android:name="ftpHost"
+        android:defaultValue=""
+        android:title="@string/ftp_host"
+        android:inputType="textUri" />
+    <EditTextPreference
+        android:key="ftpPort"
+        android:name="ftpPort"
+        android:defaultValue="21"
+        android:title="@string/ftp_port"
+        android:inputType="number" />
+    <EditTextPreference
+        android:key="ftpRemoteDir"
+        android:name="ftpRemoteDir"
+        android:defaultValue=""
+        android:title="@string/ftp_remotedir"
+        android:inputType="text" />
+    <EditTextPreference
+        android:key="ftpUserId"
+        android:name="ftpUserId"
+        android:defaultValue=""
+        android:title="@string/ftp_userid"
+        android:inputType="text" />
+    <EditTextPreference
+        android:key="ftpPassword"
+        android:name="ftpPassword"
+        android:defaultValue=""
+        android:title="@string/ftp_password"
+        android:inputType="textPassword" />
+	<!--
+    <EditTextPreference
+        android:name="ftpInterval"
+        android:key="ftpInterval"
+        android:defaultValue="10"
+        android:title="@string/ftp_interval"
+        android:inputType="number" />
+	-->
+    <EditTextPreference
+        android:key="ftpTimeout"
+        android:name="ftpTimeout"
+        android:defaultValue="30"
+        android:title="@string/ftp_timeout"
+        android:inputType="number" />
+    <CheckBoxPreference
+        android:key="ftpPassive"
+        android:name="ftpPassive"
+        android:defaultValue="true"
+        android:title="@string/ftp_passive" />
+</PreferenceScreen>

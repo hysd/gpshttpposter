@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS HTTP Poster</string>
+    <string name="title">GPS HTTP Poster</string>
+    
+    <string name="title_head">タイトル</string>
+    <string name="description_head">詳細</string>
+
+    <string name="start">開始</string>
+    <string name="stop">終了</string>
+    <string name="save">保存</string>
+    <string name="delete">削除</string>
+    <string name="upload">アップロード</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="close">閉じる</string>
+    <string name="confirm">確認</string>
+    
+    <string name="file">ファイル</string>
+    <string name="history">履歴</string>
+    <string name="setting">設定</string>
+    <string name="gps_setting">GPSの設定</string>
+    <string name="mark">マークする</string>
+    
+    
+    <string name="confirm_gps_message">GPSが有効ではありません\nGPSを設定しますか？</string>
+    
+    <string name="save_interval">GPS取得間隔 (秒)</string>
+    <string name="save_distance">GPS取得距離 (メートル)</string>
+    <string name="keep_screen">画面を常に表示する</string>
+    <string name="follow_me">現在地をフォローする</string>
+
+    <string name="use_post">HTTP更新を使用する</string>
+    
+    <string name="post_url">URL</string>
+    <string name="post_userid">ユーザーID</string>
+    <string name="post_password">パスワード</string>
+    <string name="post_interval">送信間隔 (分)</string>
+    <string name="post_timeout">タイムアウト (秒)</string>
+    <string name="post_limit">最大レコード数</string>
+    <string name="post_charset">文字コード</string>
+    <string name="post_zip">GPSログをZipで送信する</string>
+    
+    <string name="use_ftp">FTP更新を使用する</string>
+    <string name="ftp_host">FTPサーバ</string>
+    <string name="ftp_port">ポート番号</string>
+    <string name="ftp_remotedir">リモートディレクトリ</string>
+    <string name="ftp_userid">アカウント</string>
+    <string name="ftp_password">パスワード</string>
+    <string name="ftp_passive">パッシブモード</string>
+    <string name="ftp_interval">送信間隔 (分)</string>
+    <string name="ftp_timeout">タイムアウト (秒)</string>
+    
+    <string name="map_close_confirm_title">終了しますか？</string>
+    <string name="map_close_confirm_description"></string>
+
+    <string name="history_delete_btn">全ての履歴を削除</string>
+    <string name="history_delete_title">全ての履歴を削除しますか？</string>
+    <string name="history_delete_description"></string>
+    
+    <string name="history_detail_http_btn">HTTP送信</string>
+    <string name="history_detail_ftp_btn">FTPアップロード</string>
+    <string name="history_detail_sd_btn">ファイル出力</string>
+    <string name="history_detail_sd_delete_btn">ファイル削除</string>
+    
+    <string name="history_detail_delete_title">この履歴を削除しますか？</string>
+    <string name="history_detail_delete_description"></string>
+    
+    <string name="history_detail_send_mail_title">出力されたファイルを\nメールで送信しますか？</string>
+    <string name="history_detail_send_mail_description"></string>
+    
+    <string name="history_detail_delete_kml_title">KMLファイルを削除しますか？</string>
+    <string name="history_detail_delete_kml_description"></string>
+    
+    <string name="setting_http_config">HTTPの設定</string>
+    <string name="setting_http_config_description"></string>
+    
+    <string name="setting_ftp_config">FTPの設定</string>
+    <string name="setting_ftp_config_description"></string>
+    
+    <string name="map_key">0C4HhEoJ655rr-JGIjq5Q9aT6WuMhWKv-kMn2XQ</string>
+    <string name="map_key_debug">0C4HhEoJ655pCQpZuH5ZKfDh8I5-N-noLA4NzVA</string>
+</resources>

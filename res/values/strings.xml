@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS HTTP Post</string>
+    <string name="title">GPS HTTP Post</string>
+    
+    <string name="title_head">Title</string>
+    <string name="description_head">Description</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="upload">Upload</string>
+    <string name="close">Close</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm"></string>
+    
+    <string name="file">File</string>
+    <string name="history">History</string>
+    <string name="setting">Setting</string>
+    <string name="gps_setting">GPS Setting</string>
+    <string name="mark">Mark</string>
+    
+    <string name="confirm_gps_message">this app using GPS.\nconfigure GPS setting?</string>
+    
+    <string name="save_interval">Interval (seconds)</string>
+    <string name="save_distance">Distance (meters)</string>
+    <string name="keep_screen">Keep screen</string>
+    <string name="follow_me">Follow my location</string>
+
+    <string name="use_post">HTTP Post GPS logs</string>
+    
+    <string name="post_url">URL</string>
+    <string name="post_userid">UserID</string>
+    <string name="post_password">Password</string>
+    <string name="post_interval">Interval (minutes)</string>
+    <string name="post_timeout">Timeout (seconds)</string>
+    <string name="post_limit">SELECT Limit</string>
+    <string name="post_charset">Character set</string>
+    <string name="post_zip">Use logs Zip Archive</string>
+    
+    <string name="use_ftp">FTP Upload KML file from history</string>
+    <string name="ftp_host">Host</string>
+    <string name="ftp_port">Port</string>
+    <string name="ftp_remotedir">Remote Directory</string>
+    <string name="ftp_userid">UserID</string>
+    <string name="ftp_password">Password</string>
+    <string name="ftp_passive">Passive mode</string>
+    <string name="ftp_interval">Interval (minutes)</string>
+    <string name="ftp_timeout">Timeout (seconds)</string>
+    
+    <string name="map_close_confirm_title">Stop this log?</string>
+    <string name="map_close_confirm_description"></string>
+
+    <string name="history_delete_btn">delete all history</string>
+    <string name="history_delete_title">delete all history?</string>
+    <string name="history_delete_description"></string>
+    
+    <string name="history_detail_http_btn">Post HTTP</string>
+    <string name="history_detail_ftp_btn">Upload FTP</string>
+    <string name="history_detail_sd_btn">Output SD</string>
+    <string name="history_detail_sd_delete_btn">Delete SD</string>
+    
+    <string name="history_detail_delete_title">delete this log?</string>
+    <string name="history_detail_delete_description"></string>
+    
+    <string name="history_detail_send_mail_title">send mail?</string>
+    <string name="history_detail_send_mail_description"></string>
+    
+    <string name="history_detail_delete_kml_title">delete this kml?</string>
+    <string name="history_detail_delete_kml_description"></string>
+
+    <string name="setting_http_config">HTTP Client config</string>
+    <string name="setting_http_config_description"></string>
+    
+    <string name="setting_ftp_config">FTP Client config</string>
+    <string name="setting_ftp_config_description"></string>
+    
+    <string name="map_key">0C4HhEoJ655rr-JGIjq5Q9aT6WuMhWKv-kMn2XQ</string>
+    <string name="map_key_debug">0C4HhEoJ655pCQpZuH5ZKfDh8I5-N-noLA4NzVA</string>
+</resources>
